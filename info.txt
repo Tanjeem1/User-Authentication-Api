@@ -1,0 +1,22 @@
+uv pip install -r requirements.txt
+
+1) never migrate before 
+             # Custom user model
+             AUTH_USER_MODEL = 'account.User'
+using this in the settings. py (exaple: in this project settings.py line 126)
+
+
+2) superuser:
+            email: tanjeemhridoy93@gmail.Custom
+            name: tanjeem
+            password: tanjeem
+
+    staff user: 
+            email hridoy@gmail.com 
+            name: hridoy
+            password: ththththth124
+
+            
+3) while adding remote connection use this -
+
+           git remote add superman  https://github.com/Tanjeem1/User-Authentication-Api.git
